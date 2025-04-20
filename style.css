@@ -131,6 +131,7 @@ button:focus {
     .mainhead {
         width: 100%;
         margin: 0px;
+        font-size: 40px;
         padding: 15px 0px 0px 0px;
     }
 
@@ -153,6 +154,7 @@ button:focus {
 
     .mainhead {
         width: 100%;
+        font-size: 40px;
         margin: 0px;
         padding: 20px 0px 0px 0px;
     }
