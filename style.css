@@ -1,0 +1,200 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dbe9ff;
+}
+
+.mainhead {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 50px;
+    color: #3c98ff;
+    margin-bottom: 10%;
+    text-shadow: 5px 5px 15px #93c5ff;
+}
+
+.main {
+    background-color: #f0f9ff;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 20px rgb(163, 161, 161);
+}
+
+.circleDiv {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3c98ff;
+    box-shadow: 5px 5px 20px rgb(163, 161, 161);
+    margin: 10% 0px 10% 0px;
+}
+
+#min {
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    color: rgb(241, 225, 225);
+}
+
+#hr {
+    font-size: 50px;
+    color: white;
+}
+
+#sec {
+    font-size: 50px;
+    color: white;
+}
+
+#msec {
+    font-size: 50px;
+    color: white;
+}
+
+button {
+    width: 30%;
+    height: 50px;
+    margin: 0px 0px 20px 35%;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(163, 161, 161);
+    border: 0px;
+}
+
+button:hover {
+    background-color: #0a3c75;
+    color: white;
+    cursor: pointer;
+}
+
+.startButton {
+    background-color: #3c98ff;
+    color: white;
+}
+
+.startButton:hover {
+    color: white;
+    background-color: #0a3c75;
+
+
+}
+
+.pause {
+    color: #3c98ff;
+    background-color: #dbe9ff;
+
+}
+
+.reset {
+    background-color: #dbe9ff;
+    color: #3c98ff;
+
+}
+
+button:focus {
+    border: none;
+}
+
+/* Ipads/tablets Resposiveness */
+
+@media only screen and (max-width:768px) {
+
+    .mainhead {
+        width: 100%;
+        margin: 0px;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .main {
+        width: 70%;
+        margin: 100px 0px 0px 100px;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+}
+
+/* Small Screen Resposiveness */
+
+@media only screen and (max-width:1024px) {
+
+    .mainhead {
+        width: 100%;
+        margin: 0px;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .main {
+        width: 70%;
+        margin: 100px 0px 0px 100px;
+    }
+
+    button {
+        width: 50%;
+        margin: 0px 0px 20px 25%;
+    }
+
+}
+
+
+/* Mobile Resposiveness */
+
+@media only screen and (max-width:480px) {
+
+    .mainhead {
+        width: 100%;
+        margin: 0px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .main {
+        width: 100%;
+        margin: 100px 0px 0px 0px;
+    }
+
+    h2 {
+        font-size: large;
+    }
+    button {
+        width: 50%;
+        margin: 0px 0px 20px 25%;
+    }
+
+}
+
+
+/* Mobile Resposiveness */
+
+@media only screen and (max-width:413px) {
+
+    .mainhead {
+        width: 100%;
+        margin: 0px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .main {
+        width: 100%;
+        margin: 100px 0px 0px 0px;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    button {
+        width: 50%;
+        margin: 0px 0px 20px 25%;
+    }
+
+}
